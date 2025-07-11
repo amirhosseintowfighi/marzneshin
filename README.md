@@ -47,6 +47,25 @@
 - [License](#license)
 - [Contributors](#contributors)
 
+# Installation guide
+
+Run the following command to install Marzneshin with SQLite database:
+
+```bash
+sudo bash -c "$(curl -sL https://github.com/amirhosseintowfighi/marzneshin/blob/master/script.sh)" @ install
+```
+
+Run the following command to install Marzneshin with MySQL database:
+
+```bash
+sudo bash -c "$(curl -sL https://github.com/amirhosseintowfighi/marzneshin/blob/master/script.sh)" @ install --database mysql
+```
+
+Run the following command to install Marzneshin with MariaDB database:
+```bash
+sudo bash -c "$(curl -sL https://github.com/amirhosseintowfighi/marzneshin/blob/master/script.sh)" @ install --database mariadb
+```
+
 # Overview
 
 Marzneshin is a censorship circumvention tool utilizing other censorship circumvention tools.
@@ -55,9 +74,7 @@ Marzneshin controls the [Marznodes](https://github.com/marzneshin/marznode)
 connected to it; monitoring/disabling/enabling users on marznode instances while
 marznode manages and interacts with vpn backends (such as xray).
 
-#Install
-mysql: sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install --database mysql  
-mariadb: sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install --database mariadb  
+
 
 ### Docs
 
