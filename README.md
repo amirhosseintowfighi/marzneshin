@@ -55,6 +55,10 @@ Marzneshin controls the [Marznodes](https://github.com/marzneshin/marznode)
 connected to it; monitoring/disabling/enabling users on marznode instances while
 marznode manages and interacts with vpn backends (such as xray).
 
+#Install
+mysql: sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install --database mysql  
+mariadb: sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install --database mariadb  
+
 ### Docs
 
 Marzneshin documentation may be found [here](https://docs.marzneshin.org).
